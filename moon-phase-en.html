@@ -452,6 +452,70 @@
 .share-section a:hover {
   transform: scale(1.15);
 }
+
+
+.read-articles {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: all 0.3s ease;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.read-articles:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+    .cta-section {
+      text-align: center;
+      margin: 3rem 0;
+      padding: 2rem;
+      background: var(--light-color);
+      border-radius: 12px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      background: var(--gradient);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: var(--shadow);
+      margin-top: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px 40px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.article-grid a {
+  display: block;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.article-grid a:hover {
+  color: #005fa3;
+}
     
     @media (max-width: 480px) {
       h1 {
@@ -612,6 +676,20 @@ Tonight, as you gaze upon the moon, take a moment to breathe and reflect. What p
         <p>Align your rituals and meditations with lunar energy</p>
       </div>
     </div>
+
+<div class="cta-section">
+  <h2>Latest Articles:</h2>
+  <div class="article-grid">
+    <a href="https://www.bookofanswersonline.com/articles/the-hidden-strengths-of-each-zodiac-sign.html">The Hidden Strengths of Each Zodiac Sign</a>
+    <a href="https://www.bookofanswersonline.com/articles/mindfulness-in-everyday-life.html">Mindfulness in Everyday Life</a>
+    <a href="https://www.bookofanswersonline.com/articles/the-art-of-listening-to-your-intuition.html">The Art of Listening to Your Intuition</a>
+    <a href="#">Coming Articles</a>
+    <a href="#">Coming Articles</a>
+    <a href="#">Coming Articles</a>
+  </div>
+  <a href="https://www.bookofanswersonline.com/articles-en.html" class="cta-button">Read More Articles</a>
+</div>
+
 <hr>
 <div class="share-section">
   <p>Share Moon Phase:</p>
