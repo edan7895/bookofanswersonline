@@ -18,3 +18,5 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
   <a href="https://www.bookofanswersonline.com/articles-en.html" class="cta-button">Read More Articles</a>
 </div>
+  `;
+});
