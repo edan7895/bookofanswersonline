@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   container.innerHTML = `
     <h3>More Articles</h3>
-    <ul class="article-list">
+  <div class="article-grid">
     <a href="https://www.bookofanswersonline.com/articles/the-power-of-stillness.html">The Power of Stillness</a>
     <a href="https://www.bookofanswersonline.com/articles/the-magic-of-moon-phases.html">The Magic of Moon Phases</a>
     <a href="https://www.bookofanswersonline.com/articles/the-hidden-strengths-of-each-zodiac-sign.html">The Hidden Strengths of Each Zodiac Sign</a>
