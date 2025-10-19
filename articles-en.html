@@ -31,12 +31,10 @@
 <meta http-equiv="content-language" content="en">
 <meta name="robots" content="index, follow">
 
-
 <!-- Hidden Semantic SEO Section -->
 <p style="display:none;">
 Discover in-depth spiritual insights through articles that explore mindfulness, intuition, self-awareness, and emotional healing. Learn how to meditate, strengthen your intuitive abilities, and live in alignment with your higher consciousness. Each article offers practical wisdom for spiritual awakening, helping you find clarity, purpose, and inner peace in your daily life. Whether you seek balance, inspiration, or deeper self-connection, The Book of Answers Online provides timeless guidance for your spiritual evolution.
 </p>
-
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1L07L9250"></script>
@@ -364,6 +362,38 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
       margin-top: auto;
     }
     
+    /* Load More Button Styles */
+    .load-more-container {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    #load-more {
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: var(--shadow);
+    }
+    
+    #load-more:hover {
+      background: var(--secondary-color);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Hidden articles */
+    .article-card.hidden {
+      display: none;
+    }
+    
     @media (max-width: 768px) {
       h1 {
         font-size: 1.8rem;
@@ -391,23 +421,23 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
       }
     }
 
-.share-section {
-  text-align: center;
-  margin: 20px 0;
-}
-.share-section p {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-.share-section a {
-  display: inline-block;
-  margin: 0 6px;
-  transition: transform 0.2s ease;
-}
-.share-section a:hover {
-  transform: scale(1.15);
-}
+    .share-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .share-section p {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .share-section a {
+      display: inline-block;
+      margin: 0 6px;
+      transition: transform 0.2s ease;
+    }
+    .share-section a:hover {
+      transform: scale(1.15);
+    }
     
     @media (max-width: 480px) {
       h1 {
@@ -484,11 +514,28 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
 </p>
 
 <p class="intro-text">
-  As you read, allow the words to guide you back to presence. Let them spark curiosity about your own spiritual awakening and encourage you to live more consciously. May these writings become a source of daily inspiration, helping you navigate life’s changes with wisdom, balance, and trust in your inner light. Your journey toward mindfulness and enlightenment begins with a single moment of awareness — and that moment is now.
+  As you read, allow the words to guide you back to presence. Let them spark curiosity about your own spiritual awakening and encourage you to live more consciously. May these writings become a source of daily inspiration, helping you navigate life's changes with wisdom, balance, and trust in your inner light. Your journey toward mindfulness and enlightenment begins with a single moment of awareness — and that moment is now.
 </p>
 
     
 <div class="articles-grid">
+
+<!-- Article 11 -->
+<div class="article-card">
+  <div class="article-content">
+ <h3 class="article-title">What Are the 8 Major Phases of the Moon?</h3>
+
+    <p class="article-excerpt">
+      The Moon moves through eight luminous phases — from the quiet darkness of the New Moon 
+      to the radiant fullness that lights the night sky. Each stage carries a message of reflection, 
+      growth, and renewal, mirroring the natural rhythm of life itself. 
+      Discover how understanding the Moon’s cycle can deepen awareness and bring emotional balance to your everyday journey.
+    </p>
+
+    <a href="https://www.bookofanswersonline.com/articles/what-are-the-8-major-phases-of-the-moon.html" class="read-more">Read More</a>
+    <p class="article-date">Last Updated: October 19, 2025</p>
+  </div>
+</div>
 
 <!-- Article 10 -->
 <div class="article-card">
@@ -636,7 +683,12 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
   </div>
 </div>     
 
-    </div>
+</div>     
+
+<div class="load-more-container">
+  <button id="load-more">Load More Articles</button>
+</div>
+
 <hr>
 <div class="share-section">
   <p>Share Spiritual Articles:</p>
@@ -667,45 +719,52 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
     document.getElementById('hamburger').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('active');
     });
-/*
-    // Language selector functionality
-    document.getElementById('language-select').addEventListener('change', function() {
-      window.location.href = this.value;
-    });
 
-    // Auto-detect user language and set dropdown accordingly
-    function detectLanguage() {
-      const userLang = navigator.language || navigator.userLanguage;
-      const langSelect = document.getElementById('language-select');
+    // Load More functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const articles = document.querySelectorAll('.article-card');
+      const loadMoreBtn = document.getElementById('load-more');
+      const articlesPerPage = 9;
+      let currentVisibleCount = articlesPerPage;
       
-      // Map browser languages to our available options
-      const langMap = {
-        'zh': 'articles-zh.html',
-        'es': 'articles-es.html',
-        'de': 'articles-de.html',
-        'fr': 'articles-fr.html'
-      };
+      // Initially hide articles beyond the first 9
+      articles.forEach((article, index) => {
+        if (index >= articlesPerPage) {
+          article.classList.add('hidden');
+        }
+      });
       
-      // Check if the user's language is in our map
-      const langCode = userLang.split('-')[0];
-      if (langMap[langCode] && window.location.pathname.endsWith('articles-en.html')) {
-        // Only redirect if we're on the English page and user prefers another language
-        window.location.href = langMap[langCode];
+      // Update button visibility
+      function updateButtonVisibility() {
+        if (currentVisibleCount >= articles.length) {
+          loadMoreBtn.style.display = 'none';
+        } else {
+          loadMoreBtn.style.display = 'inline-block';
+        }
       }
       
-      // Set the dropdown to current language
-      const currentPage = window.location.pathname.split('/').pop();
-      for (let i = 0; i < langSelect.options.length; i++) {
-        if (langSelect.options[i].value === currentPage) {
-          langSelect.selectedIndex = i;
-          break;
-        } */
-      }
-    }
-
-    // Initialize on page load
-    window.addEventListener('DOMContentLoaded', function() {
-      detectLanguage();
+      // Initial button visibility check
+      updateButtonVisibility();
+      
+      // Load more articles when button is clicked
+      loadMoreBtn.addEventListener('click', function() {
+        // Show the next set of articles
+        for (let i = currentVisibleCount; i < currentVisibleCount + articlesPerPage && i < articles.length; i++) {
+          articles[i].classList.remove('hidden');
+        }
+        
+        // Update the count
+        currentVisibleCount += articlesPerPage;
+        
+        // Update button visibility
+        updateButtonVisibility();
+        
+        // Scroll to the newly loaded articles for better UX
+        if (currentVisibleCount < articles.length) {
+          const lastVisibleArticle = articles[currentVisibleCount - 1];
+          lastVisibleArticle.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
     });
   </script>
 </body>
