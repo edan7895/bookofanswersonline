@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<title>Redirecting...</title>
+<script>
+  const redirects = {
+    "/articles-en.html": "/articles/index.html",
+    "/articles/the-art-of-listening-to-your-intuition.html": "/articles/spiritual-guidance/the-art-of-listening-to-your-intuition.html",
+    "/articles/the-power-of-stillness.html": "/articles/spiritual-guidance/the-power-of-stillness.html",
+    "/articles/the-book-of-answers-listening-to-the-wisdom-within.html": "/articles/spiritual-guidance/the-book-of-answers-listening-to-the-wisdom-within.html",
+    "/articles/mindfulness-in-everyday-life.html": "/articles/inspiration/mindfulness-in-everyday-life.html",
+    "/articles/the-power-of-daily-inspiration.html": "/articles/inspiration/the-power-of-daily-inspiration.html",
+    "/articles/daily-inspiration-finding-light-in-everyday-moments.html": "/articles/inspiration/daily-inspiration-finding-light-in-everyday-moments.html",
+    "/articles/your-perspective-is-your-superpower.html": "/articles/inspiration/your-perspective-is-your-superpower.html",
+    "/articles/the-hidden-strengths-of-each-zodiac-sign.html": "/articles/horoscope/the-hidden-strengths-of-each-zodiac-sign.html",
+    "/articles/love-compatibility-according-to-the-zodiac.html": "/articles/horoscope/love-compatibility-according-to-the-zodiac.html",
+    "/articles/why-people-still-believe-in-astrology.html": "/articles/horoscope/why-people-still-believe-in-astrology.html",
+    "/articles/the-magic-of-moon-phases.html": "/articles/moon-phases/the-magic-of-moon-phases.html",
+    "/articles/living-by-the-light-of-the-moon.html": "/articles/moon-phases/living-by-the-light-of-the-moon.html",
+    "/articles/what-are-the-8-major-phases-of-the-moon.html": "/articles/moon-phases/what-are-the-8-major-phases-of-the-moon.html",
+
+    // ✅ 继续在这里添加旧路径到新路径
+    // "/旧路径": "/新路径"
+  };
+
+  const path = window.location.pathname;
+  const newUrl = redirects[path];
+
+  if (newUrl) {
+    // 执行重定向
+    window.location.replace(newUrl);
+  } else {
+    // 没匹配到就显示一个404页面
+    document.write("<h2>404 Page Not Found</h2><p>This page has moved or no longer exists.</p>");
+  }
+</script>
+</head>
+<body>
+</body>
+</html>

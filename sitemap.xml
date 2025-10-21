@@ -2,122 +2,153 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bookofanswersonline.com/</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/index-en.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/inspiration-en.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/horoscope-en.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/how-it-work-en.html</loc>
-    <lastmod>2025-10-14</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/privacy-en.html</loc>
-    <lastmod>2025-10-12</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/about-en.html</loc>
-    <lastmod>2025-10-12</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/contact-en.html</loc>
-    <lastmod>2025-10-12</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/terms-en.html</loc>
-    <lastmod>2025-10-12</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/moon-phase-en.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles-en.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://bookofanswersonline.com/articles/index.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+
+<!-- spiritual-guidance -->
+  <url>
+    <loc>https://bookofanswersonline.com/articles/spiritual-guidance/index.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/the-art-of-listening-to-your-intuition.html</loc>
-    <lastmod>2025-10-12</lastmod>
+    <loc>https://bookofanswersonline.com/articles/spiritual-guidance/the-art-of-listening-to-your-intuition.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/mindfulness-in-everyday-life.html</loc>
-    <lastmod>2025-10-14</lastmod>
+    <loc>https://bookofanswersonline.com/articles/spiritual-guidance/the-power-of-stillness.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/the-hidden-strengths-of-each-zodiac-sign.html</loc>
-    <lastmod>2025-10-16</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/spiritual-guidance/the-book-of-answers-listening-to-the-wisdom-within.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+<!-- inspiration -->
+  <url>
+    <loc>https://bookofanswersonline.com/articles/inspiration/index.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/the-magic-of-moon-phases.html</loc>
-    <lastmod>2025-10-16</lastmod>
+    <loc>https://bookofanswersonline.com/articles/inspiration/mindfulness-in-everyday-life.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/the-power-of-stillness.html</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://bookofanswersonline.com/articles/inspiration/the-power-of-daily-inspiration.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/the-power-of-daily-inspiration.html</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/inspiration/daily-inspiration-finding-light-in-everyday-moments.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://bookofanswersonline.com/articles/living-by-the-light-of-the-moon.html</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/inspiration/your-perspective-is-your-superpower.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+<!-- horoscope -->
+  <url>
+    <loc>https://bookofanswersonline.com/articles/horoscope/index.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/love-compatibility-according-to-the-zodiac.html</loc>
-    <lastmod>2025-10-18</lastmod>
+    <loc>https://bookofanswersonline.com/articles/horoscope/the-hidden-strengths-of-each-zodiac-sign.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/daily-inspiration-finding-light-in-everyday-moments.html</loc>
-    <lastmod>2025-10-18</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/horoscope/love-compatibility-according-to-the-zodiac.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/why-people-still-believe-in-astrology.html</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/horoscope/why-people-still-believe-in-astrology.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+<!-- moon-phases -->
+  <url>
+    <loc>https://bookofanswersonline.com/articles/moon-phases/index.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/what-are-the-8-major-phases-of-the-moon.html</loc>
-    <lastmod>2025-10-19</lastmod>
+    <loc>https://bookofanswersonline.com/articles/moon-phases/the-magic-of-moon-phases.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/the-book-of-answers-listening-to-the-wisdom-within.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://bookofanswersonline.com/articles/moon-phases/living-by-the-light-of-the-moon.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bookofanswersonline.com/articles/your-perspective-is-your-superpower.html</loc>
-    <lastmod>2025-10-20</lastmod>
+    <loc>https://www.bookofanswersonline.com/articles/moon-phases/what-are-the-8-major-phases-of-the-moon.html</loc>
+    <lastmod>2025-10-21</lastmod>
     <priority>0.9</priority>
   </url>
+
+
 </urlset>
