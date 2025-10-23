@@ -4,29 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Moon Phases & Lunar Wisdom for Mindful Living | Book of Answers Online</title>
+<title>Spiritual Articles for Mindfulness, Intuition & Personal Growth | Book of Answers Online</title>
 
-<meta name="description" content="Discover the meaning of each moon phase and how its rhythm can guide your energy, reflection, and renewal. Learn to live in harmony with the lunar cycle and awaken mindful awareness.">
+<meta name="description" content="Explore inspiring spiritual articles on mindfulness, intuition, and self-discovery. Deepen awareness, awaken inner peace, and transform your spiritual journey through The Book of Answers Online.">
 
-<meta name="keywords" content="moon phases, lunar cycle, full moon meaning, new moon intention, moon energy, waxing and waning moon, lunar wisdom, moon rituals, mindful living, spiritual cycles, astrology and moon, moon guidance, moonlight meditation, inner renewal, lunar awareness">
+<meta name="keywords" content="spiritual articles, mindfulness practice, intuition development, spiritual awakening, inner peace, personal growth, meditation guide, self discovery, higher self connection, emotional healing, conscious living, spiritual wisdom, daily inspiration, transformative spirituality, holistic wellbeing">
 
 <link rel="alternate" type="application/rss+xml" href="https://bookofanswersonline.com/feed.xml" />
 
 <!-- Canonical & Favicon -->
-<link rel="canonical" href="https://bookofanswersonline.com/articles/moon-phases/index.html">
+<link rel="canonical" href="https://bookofanswersonline.com/articles/index.html">
 <link rel="icon" href="https://bookofanswersonline.com/favicon.ico" type="image/x-icon">
 
 <!-- Language & Robots -->
 <meta http-equiv="content-language" content="en">
 <meta name="robots" content="index, follow">
 
-<link rel="alternate" hreflang="en-us" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="en-gb" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="en-au" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="en-sg" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="en-my" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="en-ca" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
-<link rel="alternate" hreflang="x-default" href="https://bookofanswersonline.com/articles/moon-phases/index.html" />
+<link rel="alternate" hreflang="en-us" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="en-gb" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="en-au" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="en-sg" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="en-my" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="en-ca" href="https://bookofanswersonline.com/articles/index.html" />
+<link rel="alternate" hreflang="x-default" href="https://bookofanswersonline.com/articles/index.html" />
 
 ﻿<!-- 🌍 GEO Targeting for High-Value Countries -->
 <meta name="geo.region" content="US" />
@@ -54,79 +54,64 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://bookofanswersonline.com/articles/moon-phases/index.html#collectionpage",
-  "url": "https://bookofanswersonline.com/articles/moon-phases/index.html",
-  "name": "Moon Phases & Lunar Wisdom for Mindful Living | Book of Answers Online",
-  "description": "Explore the meaning and rhythm of each moon phase and how its energy guides reflection, balance, and renewal. Learn to live in harmony with lunar cycles and awaken mindful awareness.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "@id": "https://bookofanswersonline.com/#website",
-    "name": "Book of Answers Online",
-    "url": "https://bookofanswersonline.com"
+  "@type": "ItemList",
+  "name": "Spiritual Articles for Mindfulness, Intuition & Personal Growth",
+  "description": "A curated collection of spiritual writings exploring mindfulness, intuition, self-discovery, and personal growth through The Book of Answers Online.",
+  "url": "https://bookofanswersonline.com/articles/index.html",
+  "about": {
+    "@type": "Thing",
+    "name": "Spiritual Growth and Mindfulness",
+    "description": "Explore articles on mindfulness, intuition, and spiritual awakening designed to deepen awareness, inner peace, and conscious living."
   },
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "name": "Spiritual Guidance",
+      "description": "Find clarity, wisdom, and peace through gentle spiritual guidance designed to support your inner journey and align you with your higher purpose.",
+      "url": "https://bookofanswersonline.com/articles/spiritual-guidance/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "name": "Daily Inspiration",
+      "description": "Begin each day with uplifting reflections that awaken your spirit and reconnect you with mindfulness, gratitude, and emotional balance.",
+      "url": "https://bookofanswersonline.com/articles/inspiration/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "name": "Daily Horoscopes",
+      "description": "Explore how celestial movements shape your day. Receive gentle astrological insights to guide mindful decisions and spiritual alignment.",
+      "url": "https://bookofanswersonline.com/articles/horoscope/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "name": "Moon Phases",
+      "description": "Discover how each lunar phase influences your emotions, energy, and inner growth. Learn to live in rhythm with the Moon’s spiritual cycles.",
+      "url": "https://bookofanswersonline.com/articles/moon-phases/index.html"
+    }
+  ],
   "publisher": {
     "@type": "Organization",
-    "name": "Book of Answers Online",
+    "name": "The Book of Answers Online",
     "url": "https://bookofanswersonline.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://bookofanswersonline.com/images/logo.png"
-    }
+    "logo": "https://bookofanswersonline.com/images/logo.png"
   },
-  "mainEntity": {
-    "@type": "ItemList",
-    "name": "Moon Phases & Lunar Wisdom Articles",
-    "numberOfItems": 4,
-    "itemListOrder": "Descending",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "url": "https://bookofanswersonline.com/articles/moon-phases/how-does-the-moon-affect-the-oceans-tides.html",
-        "name": "How Does the Moon Affect the Ocean's Tides?",
-        "description": "The Moon’s gravitational pull moves the tides — connecting celestial rhythm with the Earth’s oceans. Discover the harmony between lunar energy, motion, and renewal."
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "url": "https://bookofanswersonline.com/articles/moon-phases/what-are-the-8-major-phases-of-the-moon.html",
-        "name": "What Are the 8 Major Phases of the Moon?",
-        "description": "From the quiet New Moon to the radiant Full Moon, explore the eight lunar phases and the messages of reflection, growth, and release they hold for mindful living."
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "url": "https://bookofanswersonline.com/articles/moon-phases/living-by-the-light-of-the-moon.html",
-        "name": "Living by the Light of the Moon",
-        "description": "Learn how aligning with each moon phase restores emotional balance, intuition, and harmony. A gentle guide to living by lunar light and natural rhythm."
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "url": "https://bookofanswersonline.com/articles/moon-phases/the-magic-of-moon-phases.html",
-        "name": "The Magic of Moon Phases",
-        "description": "Each moon phase offers guidance for reflection, manifestation, and release. Discover how to connect with lunar wisdom and align with nature’s cycles of renewal."
-      }
-    ]
-  }
+  "image": "https://bookofanswersonline.com/images/spiritual-articles-cover.jpg"
 }
 </script>
 
 
 <!-- Open Graph (Facebook / LinkedIn) -->
-<meta property="og:title" content="Moon Phases & Lunar Wisdom for Mindful Living | Book of Answers Online">
-<meta property="og:description" content="Explore the symbolism and energy of each moon phase. Align your life with the lunar rhythm to cultivate awareness, balance, and renewal.">
+<meta property="og:title" content="Spiritual Articles for Mindfulness, Intuition & Personal Growth | Book of Answers Online">
+<meta property="og:description" content="Discover enlightening spiritual articles on mindfulness, intuition, and self-growth. Strengthen your inner awareness and live with peace and purpose.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://bookofanswersonline.com/moon-phases-en.html">
-<meta property="og:image" content="https://bookofanswersonline.com/cover-moon-phases.jpg">
+<meta property="og:url" content="https://bookofanswersonline.com/articles-en.html">
+<meta property="og:image" content="https://bookofanswersonline.com/cover.jpg">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Moon Phases & Lunar Wisdom for Mindful Living">
-<meta name="twitter:description" content="Understand the deeper meaning of each moon phase and how its cycles inspire mindfulness, reflection, and emotional balance.">
-<meta name="twitter:image" content="https://bookofanswersonline.com/cover-moon-phases.jpg">
-
+<meta name="twitter:title" content="Spiritual Articles for Mindfulness, Intuition & Personal Growth">
+<meta name="twitter:description" content="Read uplifting spiritual articles on mindfulness, intuition, and self-discovery to deepen awareness and inner peace.">
+<meta name="twitter:image" content="https://bookofanswersonline.com/cover.jpg">
 
 
 
@@ -148,7 +133,6 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-
   
   <style>
     :root {
@@ -547,7 +531,7 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
       <a href="/inspiration-en.html">Daily Inspiration</a>
       <a href="/horoscope-en.html">Daily Horoscope</a>
       <a href="/moon-phase-en.html">Moon Phase</a>
-      <a href="/articles/index.html" class="active">Articles</a>
+          <a href="/articles/index.html" class="active">Articles</a>
       <a href="/how-it-work-en.html">How It Work</a>
       <a href="/about-en.html">About Us</a>
       <a href="/contact-en.html">Contact Us</a>
@@ -555,93 +539,118 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
   </header>
 
   <main>
-<h2>Moon Phases Article</h2>
+<h2>Spiritual Articles</h2>
 
 <p class="intro-text">
-  Welcome to our exploration of the Moon Phases — a gentle guide to the rhythms of nature and the cycles that shape both the sky above and the heart within. For thousands of years, the moon has been humanity’s silent companion, rising and falling with the tides of our emotions, marking time not just in days and nights, but in energy, renewal, and reflection. To understand the moon’s phases is to understand the flow of life itself — constant, changing, and beautifully cyclical.
+  Welcome to our collection of spiritual articles — a sanctuary for reflection, awareness, and awakening. 
+  Here, wisdom meets experience, and words become quiet invitations to look inward. 
+  Each article is crafted to nurture mindfulness, compassion, and the rediscovery of your inner light. 
+  Whether you are just beginning your spiritual journey or have been walking the path for years, 
+  these writings are designed to help you reconnect with what is sacred and true within you.
 </p>
 
 <p class="intro-text">
-  Each phase of the moon carries its own message and energy. The New Moon whispers of beginnings — a time to plant intentions and dream quietly of what could be. As the moon waxes and grows brighter, it mirrors our own growth, inviting action and confidence. The Full Moon shines with clarity and completion, revealing truths and illuminating the fruits of our efforts. And when the moon wanes, it teaches us the grace of release — to let go of what no longer serves us and prepare for renewal once again.
+  True spiritual growth does not arise from distant retreats or extraordinary rituals; 
+  it blooms in the everyday moments we often overlook — in a deep breath before speaking, 
+  a pause before reacting, or a quiet moment of gratitude. 
+  When we learn to listen beyond the noise of the world, 
+  we begin to recognize the universe’s gentle guidance in the rhythm of our own thoughts and emotions. 
+  This awareness becomes the foundation of a more peaceful, present, and purpose-driven life.
 </p>
 
 <p class="intro-text">
-  Living by the rhythm of the moon is not about superstition, but about awareness. It reminds us that we too are part of nature’s flow — expanding, reflecting, and resting in our own seasons. When we align our energy with the moon’s natural cycle, we begin to notice subtle shifts in mood, focus, and creativity. The moon becomes a mirror for our inner world, encouraging balance between doing and being, light and shadow, fullness and emptiness.
+  Within these pages, you will discover insights that touch every aspect of the soul. 
+  Our <strong><a href="https://www.bookofanswersonline.com/articles/inspiration/index.html">Daily Inspiration</a></strong> section offers gentle reminders to begin each day with intention and heart — 
+  small sparks of wisdom to lift your spirit and realign your focus. 
+  In <strong><a href="https://www.bookofanswersonline.com/articles/moon-phases/index.html">Moon Phases</a></strong>, 
+  you’ll explore how the changing moon mirrors the cycles of your own emotional and spiritual growth, 
+  teaching you to live in harmony with nature’s subtle rhythms.
 </p>
 
 <p class="intro-text">
-  You don’t need to be an astrologer to feel the moon’s pull. Simply take a few moments each evening to look up. Notice the curve of light, the color of the sky, the stillness it brings. Let it remind you that change is not to be feared — it is part of the rhythm that keeps life alive. Each phase offers a lesson: patience, trust, reflection, and surrender. The moon’s beauty lies not only in her glow, but in her reminder that even in darkness, the light is never truly gone.
+  For those seeking deeper understanding, 
+  <strong><a href="https://www.bookofanswersonline.com/articles/spiritual-guidance/index.html">Spiritual Guidance</a></strong> 
+  provides reflections to help you trust your intuition, align with your higher self, 
+  and navigate life’s uncertainties with wisdom and grace. 
+  And through our <strong><a href="https://www.bookofanswersonline.com/articles/horoscope/index.html">Daily Horoscopes</a></strong>, 
+  you can explore the cosmic patterns that influence your day — 
+  not as predictions, but as gentle reminders of how the universe supports your personal evolution.
 </p>
 
 <p class="intro-text">
-  As you explore the moon’s journey through her eight phases, allow these reflections to guide your own. Set intentions during the New Moon, take inspired action as it waxes, celebrate under the Full Moon, and release gently as it wanes. Let the moon’s timeless wisdom help you navigate your own cycles of change with grace and intuition. The universe moves in patterns of renewal — and by honoring the moon, you honor the rhythm of your own becoming.
+  Every article here is an invitation to slow down, breathe deeply, and remember the simple truth: 
+  the answers you seek are already within you. 
+  By opening your heart to awareness, gratitude, and trust, 
+  you begin to see that life itself is the greatest teacher. 
+  Let these writings guide you toward clarity, presence, and peace — 
+  and remind you that enlightenment is not a destination, but a way of being in every moment. 
+  Your spiritual awakening begins here, one mindful breath at a time.
 </p>
 
 
     
 <div class="articles-grid">
 
-<!-- Article 11 -->
 <div class="article-card">
   <div class="article-content">
-    <h3 class="article-title">How Does the Moon Affect the Ocean's Tides?</h3>
+    <h3 class="article-title">Spiritual Guidance</h3>
     <p class="article-excerpt">
-      The Moon’s silent pull shapes the rhythm of the Earth’s oceans — guiding tides that rise and fall like the planet’s breath. 
-      Through the invisible force of gravity, it draws the sea toward its light, creating waves of motion, energy, and renewal. 
-      From ancient myths to modern science, this lunar connection reminds us that all things move in harmony — the Moon, the ocean, and the soul within us.
+      Find clarity, wisdom, and peace through gentle spiritual guidance designed to support your inner journey. 
+      Each reflection invites you to look within, trust your intuition, and align with the higher purpose guiding your life. 
+      Discover how awareness, faith, and compassion can illuminate your path — leading you toward balance, healing, and spiritual growth.
     </p>
-    <a href="https://bookofanswersonline.com/articles/moon-phases/how-does-the-moon-affect-the-oceans-tides.html" class="read-more">Read More</a>
+    <a href="https://bookofanswersonline.com/articles/spiritual-guidance/index.html" class="read-more">Explore Spiritual Guidance</a>
     <p class="article-date">Last Updated: October 21, 2025</p>
   </div>
 </div>
 
-<!-- Article 11 -->
+
 <div class="article-card">
   <div class="article-content">
- <h3 class="article-title">What Are the 8 Major Phases of the Moon?</h3>
-
+    <h3 class="article-title">Daily Inspiration</h3>
     <p class="article-excerpt">
-      The Moon moves through eight luminous phases — from the quiet darkness of the New Moon 
-      to the radiant fullness that lights the night sky. Each stage carries a message of reflection, 
-      growth, and renewal, mirroring the natural rhythm of life itself. 
-      Discover how understanding the Moon’s cycle can deepen awareness and bring emotional balance to your everyday journey.
+      Begin each day with words that awaken your spirit and uplift your heart. 
+      Our daily inspirations offer gentle reminders of hope, mindfulness, and presence — 
+      helping you reconnect with what truly matters. 
+      Whether you’re seeking motivation, peace, or a spark of clarity, 
+      let these reflections guide you toward a more centered and meaningful day.
     </p>
-
-    <a href="https://bookofanswersonline.com/articles/moon-phases/what-are-the-8-major-phases-of-the-moon.html" class="read-more">Read More</a>
-    <p class="article-date">Last Updated: October 19, 2025</p>
+    <a href="https://bookofanswersonline.com/articles/inspiration/index.html" class="read-more">Explore Daily Inspiration</a>
+    <p class="article-date">Last Updated: October 21, 2025</p>
   </div>
 </div>
 
 
-<!-- Article 7 -->
+
 <div class="article-card">
   <div class="article-content">
-    <h3 class="article-title">Living by the Light of the Moon</h3>
+    <h3 class="article-title">Daily Horoscopes</h3>
     <p class="article-excerpt">
-      The Moon teaches us that life moves in cycles — of growth, reflection, and renewal. 
-      By aligning with each lunar phase, from the quiet New Moon to the radiant Full Moon, 
-      we can restore balance, deepen intuition, and reconnect with nature’s rhythm. 
-      Discover how <strong>living by the light of the Moon</strong> can guide your energy, emotions, and spiritual journey toward harmony and clarity.
+      Discover what the stars have prepared for you today. 
+      Our daily horoscopes offer gentle cosmic insights to help you align with the universe, 
+      make mindful choices, and move through the day with clarity and purpose. 
+      Let celestial wisdom be your daily guide toward balance, inspiration, and self-understanding.
     </p>
-    <a href="https://bookofanswersonline.com/articles/moon-phases/living-by-the-light-of-the-moon.html" class="read-more">Read More</a>
-    <p class="article-date">Last Updated: October 17, 2025</p>
+    <a href="https://bookofanswersonline.com/articles/horoscope/index.html" class="read-more">Explore Horoscopes</a>
+    <p class="article-date">Last Updated: October 21, 2025</p>
   </div>
 </div>
 
-<!-- Article 4 -->
+
 <div class="article-card">
   <div class="article-content">
-    <h3 class="article-title">The Magic of Moon Phases</h3>
+    <h3 class="article-title">Moon Phases</h3>
     <p class="article-excerpt">
-      The Moon moves through a sacred rhythm that mirrors the cycles of life, emotion, and renewal. 
-      Each phase—from the new moon’s quiet beginnings to the full moon’s radiant clarity—offers guidance for reflection, manifestation, and release. 
-      Discover how tuning into the <strong>moon phases</strong> can help you align with nature’s flow, find emotional balance, and cultivate a deeper connection with yourself and the universe.
+      Follow the rhythm of the Moon and discover how each phase influences your emotions, energy, and intentions. 
+      From the renewing power of the New Moon to the illuminating clarity of the Full Moon, 
+      every lunar stage carries unique wisdom. 
+      Learn how to align your actions with the Moon’s natural cycles and let its gentle light guide your spiritual growth and self-reflection.
     </p>
-    <a href="https://bookofanswersonline.com/articles/moon-phases/the-magic-of-moon-phases.html" class="read-more">Read More</a>
-    <p class="article-date">Last Updated: October 16, 2025</p>
+    <a href="https://bookofanswersonline.com/articles/moon-phases/index.html" class="read-more">Explore Moon Phases</a>
+    <p class="article-date">Last Updated: October 21, 2025</p>
   </div>
 </div>
-  
+    
 
 </div>     
 
@@ -649,29 +658,34 @@ Discover in-depth spiritual insights through articles that explore mindfulness, 
   <button id="load-more">Load More Articles</button>
 </div>
 
+
+
+<div id="more-articles"></div>
+<script src="/js/articles-list.js"></script>
+
+
 <hr>
 <div class="share-section">
   <p>Share Spiritual Articles:</p>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://bookofanswersonline.com/articles/moon-phases/index.html" target="_blank" aria-label="Share on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://bookofanswersonline.com/articles/index.html" target="_blank" aria-label="Share on Facebook">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="#4267B2"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692V11.01h3.128V8.412c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.764v2.314h3.587l-.467 3.696h-3.12V24h6.116c.728 0 1.325-.597 1.325-1.324V1.325C24 .597 23.403 0 22.675 0z"/></svg>
   </a>
 
-  <a href="https://twitter.com/intent/tweet?url=https://bookofanswersonline.com/articles/moon-phases/index.html&text=Discover%20your%20daily%20horoscope!" target="_blank" aria-label="Share on Twitter">
+  <a href="https://twitter.com/intent/tweet?url=https://bookofanswersonline.com/articles/index.html&text=Discover%20your%20daily%20horoscope!" target="_blank" aria-label="Share on Twitter">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.388 4.482A13.978 13.978 0 0 1 1.671 3.149 4.92 4.92 0 0 0 3.195 9.723a4.902 4.902 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.923 4.923 0 0 0 4.6 3.417A9.867 9.867 0 0 1 0 19.54a13.945 13.945 0 0 0 7.548 2.212c9.057 0 14.01-7.513 14.01-14.01 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/></svg>
   </a>
 
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bookofanswersonline.com/articles/moon-phases/index.html" target="_blank" aria-label="Share on LinkedIn">
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://bookofanswersonline.com/articles/index.html" target="_blank" aria-label="Share on LinkedIn">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="#0A66C2"><path d="M4.983 3.5C4.983 5.07 3.74 6.312 2.17 6.312 0.6 6.312-.643 5.07-.643 3.5c0-1.57 1.243-2.813 2.813-2.813 1.57 0 2.813 1.243 2.813 2.813zm.037 4.5H1.07V24h3.95V8zM8.89 8h3.785v2.198h.054c.527-1 1.817-2.054 3.74-2.054 3.995 0 4.73 2.63 4.73 6.05V24h-3.948v-7.72c0-1.84-.033-4.206-2.56-4.206-2.56 0-2.953 2-2.953 4.07V24H8.89V8z"/></svg>
   </a>
 
-  <a href="https://pinterest.com/pin/create/button/?url=https://bookofanswersonline.com/articles/moon-phases/index.html" target="_blank" aria-label="Share on Pinterest">
+  <a href="https://pinterest.com/pin/create/button/?url=https://bookofanswersonline.com/articles/index.html" target="_blank" aria-label="Share on Pinterest">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="#E60023"><path d="M12 0C5.372 0 0 5.373 0 12c0 4.992 3.657 9.155 8.438 10.481-.117-.889-.223-2.256.046-3.229.244-.838 1.57-5.337 1.57-5.337s-.4-.801-.4-1.983c0-1.86 1.078-3.249 2.422-3.249 1.143 0 1.693.858 1.693 1.886 0 1.149-.731 2.869-1.107 4.468-.317 1.341.67 2.434 1.987 2.434 2.385 0 4.213-2.515 4.213-6.139 0-3.207-2.31-5.455-5.61-5.455-3.821 0-6.064 2.869-6.064 5.832 0 1.148.444 2.381.998 3.047a.403.403 0 0 1 .092.384c-.1.423-.322 1.341-.366 1.528-.058.243-.19.295-.437.179-1.624-.756-2.64-3.129-2.64-5.038 0-4.101 2.983-7.863 8.607-7.863 4.518 0 8.04 3.221 8.04 7.526 0 4.493-2.835 8.114-6.773 8.114-1.322 0-2.566-.688-2.992-1.505l-.812 3.09c-.293 1.107-1.09 2.494-1.626 3.34A12.007 12.007 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
   </a>
 </div>
-  </main>
 
   <footer>
-    &copy; 2025 Book of Answers Online | All Rights Reserved | <a href="/privacy-en.html" style="color: var(--light-color);">Privacy Policy</a> | <a href="/terms-en.html" style="color: var(--light-color);">Terms of Service</a>|   <a href="http://www.blogarama.com/fashion-blogs/1351624-blog/" style="color: var(--light-color);" title="Blogarama.com - Follow me on Blogarama">Blogarama - Blog Directory</a> 
+    &copy; 2025 Book of Answers Online | All Rights Reserved | <a href="/privacy-en.html" style="color: var(--light-color);">Privacy Policy</a> | <a href="/terms-en.html" style="color: var(--light-color);">Terms of Service</a> |   <a href="http://www.blogarama.com/fashion-blogs/1351624-blog/" style="color: var(--light-color);" title="Blogarama.com - Follow me on Blogarama">Blogarama - Blog Directory</a> 
   </main>
   </footer>
 
