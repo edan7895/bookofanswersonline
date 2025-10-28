@@ -192,7 +192,7 @@
 <!-- moon-phases -->
   <url>
     <loc>https://bookofanswersonline.com/articles/moon-phases/index.html</loc>
-    <lastmod>2025-10-27</lastmod>
+    <lastmod>2025-10-28</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -223,6 +223,11 @@
   <url>
     <loc>https://bookofanswersonline.com/articles/moon-phases/how-long-does-a-full-moon-last.html</loc>
     <lastmod>2025-10-27</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bookofanswersonline.com/articles/moon-phases/can-the-moons-phases-really-affect-your-sleep.html</loc>
+    <lastmod>2025-10-28</lastmod>
     <priority>0.9</priority>
   </url>
 

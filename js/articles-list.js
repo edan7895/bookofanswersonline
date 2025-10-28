@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="cta-section">
   <h2>Latest Articles:</h2>
   <div class="article-grid">
+    <a href="https://bookofanswersonline.com/articles/moon-phases/can-the-moons-phases-really-affect-your-sleep.html">Can the Moon's Phases Really Affect Your Sleep?</a>
     <a href="https://bookofanswersonline.com/articles/spiritual-guidance/what-does-your-heart-already-know.html">What Does Your Heart Already Know?</a>
     <a href="https://bookofanswersonline.com/articles/inspiration/what-if-today-is-setting-you-up-for-a-miracle.html">What If Today is Setting You Up for a Miracle?</a>
     <a href="https://bookofanswersonline.com/articles/horoscope/the-secret-power-of-your-rising-sign.html">The Secret Power of Your Rising Sign: How Others See You</a>
     <a href="https://bookofanswersonline.com/articles/moon-phases/how-long-does-a-full-moon-last.html">How Long Does a Full Moon Last?</a>
     <a href="https://bookofanswersonline.com/articles/spiritual-guidance/quiet-your-mind-the-answer-will-follow.html">Quiet Your Mind, the Answer Will Follow</a>
-    <a href="https://bookofanswersonline.com/articles/horoscope/unlocking-your-sun-moon-and-rising-signs.html">Unlocking Your Sun, Moon, and Rising Signs: A Beginner’s Guide</a>
   </div>
   <a href="https://bookofanswersonline.com/articles/index.html" class="cta-button">Read More Articles</a>
 </div>
