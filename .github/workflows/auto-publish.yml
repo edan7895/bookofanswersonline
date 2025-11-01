@@ -22,6 +22,10 @@ jobs:
       - name: 🚀 Run auto-publish script
         run: node auto-publish.js
 
-      - name: ✅ Push changes to GitHub
+      - name: ✅ Commit & Push changes
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🪶 Auto publish horoscope article - $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push
