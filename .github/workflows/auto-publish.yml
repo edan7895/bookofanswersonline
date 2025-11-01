@@ -1,0 +1,27 @@
+name: 🪶 Auto Publish Horoscope
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天 UTC 0:00 运行（相当于马来西亚早上8点）
+  workflow_dispatch:     # 可手动触发
+    inputs: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧩 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: 🚀 Run auto-publish script
+        run: node auto-publish.js
+
+      - name: ✅ Push changes to GitHub
+        run: |
+          git push
