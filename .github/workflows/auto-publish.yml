@@ -2,7 +2,7 @@ name: 🪶 Auto Publish Horoscope
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天 UTC 0:00 运行（相当于马来西亚早上8点）
+    - cron: "0 2 * * *" # 每天 UTC 0:00 运行（相当于马来西亚早上8点）
   workflow_dispatch:     # 可手动触发
     inputs: {}
 
