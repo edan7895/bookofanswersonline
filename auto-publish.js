@@ -3,9 +3,13 @@
 // 每天执行一次（由 GitHub Actions 调用）
 // 作者: chia 专用增强版 ✅ 支持 index.html 同步更新
 
-import fs from "fs";
-import path from "path";
-import { execSync } from "child_process";
+// ⚡ auto-publish.js
+// 自动发布 horoscope 文章 + index.html
+// 每天执行一次（由 GitHub Actions 调用）
+
+const fs = require("fs");
+const path = require("path");
+const { execSync } = require("child_process");
 
 // === 🧭 基本配置 ===
 const scheduledDir = "articles/scheduled/horoscope"; // 预排文章目录
@@ -61,5 +65,6 @@ try {
 } catch (err) {
   console.error("⚠️ 没有新的更改或提交出错：", err.message);
 }
+
 
 
