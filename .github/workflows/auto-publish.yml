@@ -1,31 +1,62 @@
-name: 🪶 Auto Publish Horoscope
+name: Auto Publish Articles
 
 on:
   schedule:
-    - cron: "0 2 * * *" # 每天 UTC 0:00 运行（相当于马来西亚早上8点）
-  workflow_dispatch:     # 可手动触发
-    inputs: {}
+    # 每天 0:00 UTC -> Horoscope (早上8点)
+    - cron: "0 0 * * *"
+    # 每天 4:00 UTC -> Inspiration (中午12点)
+    - cron: "0 4 * * *"
+    # 每天 8:00 UTC -> Moon Phases (下午4点)
+    - cron: "0 8 * * *"
+    # 每天 12:00 UTC -> Spiritual Guidance (晚上8点)
+    - cron: "0 12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧩 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🟢 Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: 🚀 Run auto-publish script
-        run: node auto-publish.js
-
-      - name: ✅ Commit & Push changes
+      - name: Set up Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Set TIMEZONE variable
+        run: echo "TZ=Asia/Kuala_Lumpur" >> $GITHUB_ENV
+
+      - name: Run auto publish
+        run: |
+          CURRENT_HOUR=$(date -u +"%H")
+          echo "Current UTC hour: $CURRENT_HOUR"
+
+          if [ "$CURRENT_HOUR" -eq 0 ]; then
+            echo "⏰ Running Horoscope auto-publish"
+            node scripts/auto-publish-horoscope.js
+          elif [ "$CURRENT_HOUR" -eq 4 ]; then
+            echo "⏰ Running Inspiration auto-publish"
+            node scripts/auto-publish-inspiration.js
+          elif [ "$CURRENT_HOUR" -eq 8 ]; then
+            echo "⏰ Running Moon Phases auto-publish"
+            node scripts/auto-publish-moonphases.js
+          elif [ "$CURRENT_HOUR" -eq 12 ]; then
+            echo "⏰ Running Spiritual Guidance auto-publish"
+            node scripts/auto-publish-spiritualguidance.js
+          else
+            echo "No matching publication scheduled for this hour."
+          fi
+
+      - name: Commit and push changes
+        run: |
           git add .
-          git commit -m "🪶 Auto publish horoscope article - $(date '+%Y-%m-%d')" || echo "No changes to commit"
+          git commit -m "🪶 Auto publish article - $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
