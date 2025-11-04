@@ -1,5 +1,5 @@
 // ⚡ auto-publish-horoscope.js
-// 自动发布 horoscope 文章 + index.html
+// 自动发布 horoscope 文章 + index.html + 更新 sitemap
 
 const fs = require("fs");
 const path = require("path");
@@ -44,14 +44,22 @@ files.forEach(file => {
   console.log(`✅ 已发布：${newName}`);
 });
 
+// === 🗺️ 自动更新 sitemap ===
+try {
+  console.log("🗺️ 正在更新 sitemap.xml...");
+  execSync(`node scripts/update-sitemap-category.js horoscope`, { stdio: "inherit" });
+} catch (err) {
+  console.error("⚠️ 更新 sitemap 失败：", err.message);
+}
+
 // === 🚀 自动 Git 提交 ===
 try {
   execSync(`git config user.name "github-actions[bot]"`);
   execSync(`git config user.email "github-actions[bot]@users.noreply.github.com"`);
-  execSync(`git add ${targetDir}`);
-  execSync(`git commit -m "🔮 Auto publish horoscope article & index for ${today}"`);
+  execSync(`git add ${targetDir} sitemap.xml`);
+  execSync(`git commit -m "🔮 Auto publish horoscope article & update sitemap for ${today}" || echo "No changes"`);
   execSync(`git push`);
-  console.log("🎉 horoscope 已成功发布！");
+  console.log("🎉 horoscope 已成功发布并更新 sitemap！");
 } catch (err) {
   console.error("⚠️ 没有更改或提交错误：", err.message);
 }
