@@ -19,13 +19,15 @@ if (!fs.existsSync(scheduledDir) || !fs.existsSync(targetDir)) {
   process.exit(1);
 }
 
-// === 📂 查找今日文件 ===
+// === 📂 查找今日文件（容错匹配）===
 const files = fs
   .readdirSync(scheduledDir)
-  .filter(f => f.includes(today) && f.endsWith(".html"));
+  .filter(f => f.match(new RegExp(`${today}.*\\.html$`, "i")));
 
 if (files.length === 0) {
-  console.log("📭 今天没有要发布的 spiritual-guidance 文件。");
+  console.log(`📭 今天（${today}）没有找到要发布的文件。`);
+  const allFiles = fs.readdirSync(scheduledDir);
+  console.log("📁 当前 scheduled 目录内的文件：", allFiles.join(", "));
   process.exit(0);
 }
 
@@ -36,10 +38,12 @@ files.forEach(file => {
   const oldPath = path.join(scheduledDir, file);
 
   let newName = file
-    .replace(/^new-/, "")           // 去掉 new-
-    .replace(`-${today}`, "");      // 去掉日期
+    .replace(/^newfile-/, "")
+    .replace(/^new-/, "")
+    .replace(/^draft-/, "")
+    .replace(`-${today}`, "")
+    .replace(/-?\d{4}-\d{2}-\d{2}/, ""); // 防止重复日期片段
 
-  // ✅ 若文件名中包含 "index"，改为 index.html
   if (newName.includes("index")) newName = "index.html";
 
   const newPath = path.join(targetDir, newName);
