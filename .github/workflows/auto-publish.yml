@@ -2,13 +2,13 @@ name: Auto Publish Articles
 
 on:
   schedule:
-    # 每天 0:00 UTC -> Horoscope (早上8点)
+    # 每天 00:00 UTC -> Horoscope (马来西亚早上8点)
     - cron: "0 0 * * *"
-    # 每天 4:00 UTC -> Inspiration (中午12点)
+    # 每天 04:00 UTC -> Inspiration (马来西亚中午12点)
     - cron: "0 4 * * *"
-    # 每天 8:00 UTC -> Moon Phases (下午4点)
+    # 每天 08:00 UTC -> Moon Phases (马来西亚下午4点)
     - cron: "0 8 * * *"
-    # 每天 12:00 UTC -> Spiritual Guidance (晚上8点)
+    # 每天 12:00 UTC -> Spiritual Guidance (马来西亚晚上8点)
     - cron: "0 12 * * *"
 
   workflow_dispatch:
@@ -21,39 +21,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 🧭 Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Git
+      - name: ⚙️ Set up Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Set TIMEZONE variable
-        run: echo "TZ=Asia/Kuala_Lumpur" >> $GITHUB_ENV
+      - name: 🕐 Set timezone
+        run: |
+          echo "Asia/Kuala_Lumpur" > /etc/timezone
+          sudo dpkg-reconfigure -f noninteractive tzdata
+          echo "Current time: $(date)"
+          echo "Current UTC hour: $(date -u +'%H')"
 
-      - name: Run auto publish
+      - name: 🚀 Run auto publish script
         run: |
           CURRENT_HOUR=$(date -u +"%H")
-          echo "Current UTC hour: $CURRENT_HOUR"
+          echo "Current UTC hour detected: $CURRENT_HOUR"
 
           if [ "$CURRENT_HOUR" -eq 0 ]; then
-            echo "⏰ Running Horoscope auto-publish"
+            echo "🪐 Running Horoscope auto-publish"
             node scripts/auto-publish-horoscope.js
           elif [ "$CURRENT_HOUR" -eq 4 ]; then
-            echo "⏰ Running Inspiration auto-publish"
+            echo "🌞 Running Inspiration auto-publish"
             node scripts/auto-publish-inspiration.js
           elif [ "$CURRENT_HOUR" -eq 8 ]; then
-            echo "⏰ Running Moon Phases auto-publish"
+            echo "🌕 Running Moon Phases auto-publish"
             node scripts/auto-publish-moonphases.js
           elif [ "$CURRENT_HOUR" -eq 12 ]; then
-            echo "⏰ Running Spiritual Guidance auto-publish"
+            echo "🔮 Running Spiritual Guidance auto-publish"
             node scripts/auto-publish-spiritualguidance.js
           else
-            echo "No matching publication scheduled for this hour."
+            echo "⏳ No scheduled publication for this UTC hour."
           fi
 
-      - name: Commit and push changes
+      - name: 💾 Commit and push changes
         run: |
           git add .
           git commit -m "🪶 Auto publish article - $(date +'%Y-%m-%d')" || echo "No changes to commit"
