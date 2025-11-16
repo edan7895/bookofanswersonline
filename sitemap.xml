@@ -2,27 +2,27 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bookofanswersonline.com/</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/index-en.html</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/inspiration-en.html</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/horoscope-en.html</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bookofanswersonline.com/moon-phase-en.html</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -292,7 +292,7 @@
 <!-- moon-phases -->
   <url>
     <loc>https://bookofanswersonline.com/articles/moon-phases/index.html</loc>
-    <lastmod>2025-11-12</lastmod>
+    <lastmod>2025-11-16</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -358,6 +358,11 @@
   <url>
     <loc>https://bookofanswersonline.com/articles/moon-phases/how-to-use-moon-phases-for-planning-goal-setting.html</loc>
     <lastmod>2025-11-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bookofanswersonline.com/articles/moon-phases/why-we-see-the-same-side-of-the-moon.html</loc>
+    <lastmod>2025-11-16</lastmod>
     <priority>0.7</priority>
   </url>
 
